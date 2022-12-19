@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="19008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="varPersistentID:{F47D51A5-5AB0-4F5E-9418-3315FE00C7D7}" Type="Ref">/myRIO-1950/Vernier.lvlib/Temperature</Property>
 	<Property Name="varPersistentID:{FF261A08-BB8B-4757-B279-25DF7B2DF068}" Type="Ref">/myRIO-1950/KNRm_ReMi_OS6_436Motor.lvlibp/BNO055_KNRm_ReMi.lvlib/Eular</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -21,7 +22,99 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="GDX LabVIEW Examples" Type="Folder" URL="../GDX LabVIEW Examples">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="D2PIO Close Device List Snapshot.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Close Device List Snapshot.vi"/>
+				<Item Name="D2PIO Device Clear IO.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Device Clear IO.vi"/>
+				<Item Name="D2PIO Device Close.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Device Close.vi"/>
+				<Item Name="D2PIO Device Get Device Description.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Device Get Device Description.vi"/>
+				<Item Name="D2PIO Device Get Measurement Channel Incompatibility Mask.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Device Get Measurement Channel Incompatibility Mask.vi"/>
+				<Item Name="D2PIO Device Get Measurement Channel Numeric Type.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Device Get Measurement Channel Numeric Type.vi"/>
+				<Item Name="D2PIO Device Get Measurement Channel Sensor Description.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Device Get Measurement Channel Sensor Description.vi"/>
+				<Item Name="D2PIO Device Get Measurement Channel Sensor Id.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Device Get Measurement Channel Sensor Id.vi"/>
+				<Item Name="D2PIO Device Get Measurement Channel Sensor Unit.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Device Get Measurement Channel Sensor Unit.vi"/>
+				<Item Name="D2PIO Device Get Measurement Period.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Device Get Measurement Period.vi"/>
+				<Item Name="D2PIO Device Get Measurement Tick.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Device Get Measurement Tick.vi"/>
+				<Item Name="D2PIO Device Get Num Measurements Available.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Device Get Num Measurements Available.vi"/>
+				<Item Name="D2PIO Device Get Open Device Name.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Device Get Open Device Name.vi"/>
+				<Item Name="D2PIO Device Get Open Status.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Device Get Open Status.vi"/>
+				<Item Name="D2PIO Device List Snapshot Get Nth Entry.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Device List Snapshot Get Nth Entry.vi"/>
+				<Item Name="D2PIO Device Open.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Device Open.vi"/>
+				<Item Name="D2PIO Device Read Measurements.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Device Read Measurements.vi"/>
+				<Item Name="D2PIO Device Read Raw Measurements.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Device Read Raw Measurements.vi"/>
+				<Item Name="D2PIO Device Send Cmd And Get Response.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Device Send Cmd And Get Response.vi"/>
+				<Item Name="D2PIO Device Set Measurement Period.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Device Set Measurement Period.vi"/>
+				<Item Name="D2PIO Diags Get Debug Trace Threshold.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Diags Get Debug Trace Threshold.vi"/>
+				<Item Name="D2PIO Disable Auto Device Discovery Across Comm Transport.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Disable Auto Device Discovery Across Comm Transport.vi"/>
+				<Item Name="D2PIO Enable Auto Device Discovery Across Comm Transport.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Enable Auto Device Discovery Across Comm Transport.vi"/>
+				<Item Name="D2PIO Get Lib Version.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Get Lib Version.vi"/>
+				<Item Name="D2PIO Get Measurement Channel Availability Mask.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Get Measurement Channel Availability Mask.vi"/>
+				<Item Name="D2PIO Get Measurement Channel Default Activation Mask.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Get Measurement Channel Default Activation Mask.vi"/>
+				<Item Name="D2PIO Init.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Init.vi"/>
+				<Item Name="D2PIO Is Auto Device Discovery Enabled Across Comm Transport.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Is Auto Device Discovery Enabled Across Comm Transport.vi"/>
+				<Item Name="D2PIO Open Device List Snapshot.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Open Device List Snapshot.vi"/>
+				<Item Name="D2PIO Search For Devices.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Search For Devices.vi"/>
+				<Item Name="D2PIO Set Measurement Channel Default Activation Mask.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Set Measurement Channel Default Activation Mask.vi"/>
+				<Item Name="D2PIO Uninit.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Function Calls/D2PIO Uninit.vi"/>
+				<Item Name="D2PIO_AddXYArrayDimension.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_AddXYArrayDimension.vi"/>
+				<Item Name="D2PIO_Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_Buffer.vi"/>
+				<Item Name="D2PIO_Buffer_Device0.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_Buffer_Device0.vi"/>
+				<Item Name="D2PIO_Buffer_Device1.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_Buffer_Device1.vi"/>
+				<Item Name="D2PIO_Buffer_Device2.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_Buffer_Device2.vi"/>
+				<Item Name="D2PIO_Buffer_Device3.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_Buffer_Device3.vi"/>
+				<Item Name="D2PIO_Buffer_Device4.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_Buffer_Device4.vi"/>
+				<Item Name="D2PIO_Buffer_Device5.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_Buffer_Device5.vi"/>
+				<Item Name="D2PIO_Buffer_Device6.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_Buffer_Device6.vi"/>
+				<Item Name="D2PIO_Buffer_Device7.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_Buffer_Device7.vi"/>
+				<Item Name="D2PIO_Buffer_Device8.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_Buffer_Device8.vi"/>
+				<Item Name="D2PIO_Buffer_Device9.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_Buffer_Device9.vi"/>
+				<Item Name="D2PIO_Buffer_Device10.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_Buffer_Device10.vi"/>
+				<Item Name="D2PIO_Buffer_Device11.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_Buffer_Device11.vi"/>
+				<Item Name="D2PIO_BuildXYGraph.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_BuildXYGraph.vi"/>
+				<Item Name="D2PIO_ChannelInfoCluster.ctl" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Controls/D2PIO_ChannelInfoCluster.ctl"/>
+				<Item Name="D2PIO_CHARGER_STATE.ctl" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Controls/D2PIO_CHARGER_STATE.ctl"/>
+				<Item Name="D2PIO_CommTransport.ctl" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Controls/D2PIO_CommTransport.ctl"/>
+				<Item Name="D2PIO_Convert to Firmware Value.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_Convert to Firmware Value.vi"/>
+				<Item Name="D2PIO_D2PIOCluster.ctl" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Controls/D2PIO_D2PIOCluster.ctl"/>
+				<Item Name="D2PIO_Device Open Timeout.ctl" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Controls/D2PIO_Device Open Timeout.ctl"/>
+				<Item Name="D2PIO_Device Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Controls/D2PIO_Device Type.ctl"/>
+				<Item Name="D2PIO_DEVICE_OPEN_STATUS.ctl" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Controls/D2PIO_DEVICE_OPEN_STATUS.ctl"/>
+				<Item Name="D2PIO_DeviceInfo.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_DeviceInfo.vi"/>
+				<Item Name="D2PIO_DeviceSelectPopup.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_DeviceSelectPopup.vi"/>
+				<Item Name="D2PIO_GetDeviceInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Controls/D2PIO_GetDeviceInfo.ctl"/>
+				<Item Name="D2PIO_GetStatus.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_GetStatus.vi"/>
+				<Item Name="D2PIO_INFO_DeviceInfoCluster.ctl" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Controls/D2PIO_INFO_DeviceInfoCluster.ctl"/>
+				<Item Name="D2PIO_InitDevice_BT.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_InitDevice_BT.vi"/>
+				<Item Name="D2PIO_InitDevice_USB.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_InitDevice_USB.vi"/>
+				<Item Name="D2PIO_lib.dll" Type="Document" URL="/&lt;vilib&gt;/Vernier/GDX/GDX DLL/D2PIO_lib.dll"/>
+				<Item Name="D2PIO_MASK_STATUS.ctl" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Controls/D2PIO_MASK_STATUS.ctl"/>
+				<Item Name="D2PIO_MaskToBits.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_MaskToBits.vi"/>
+				<Item Name="D2PIO_MaskToChannelArray.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_MaskToChannelArray.vi"/>
+				<Item Name="D2PIO_OpenDevice_BT.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_OpenDevice_BT.vi"/>
+				<Item Name="D2PIO_OpenDevice_USB.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_OpenDevice_USB.vi"/>
+				<Item Name="D2PIO_OpenDeviceList_BT.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_OpenDeviceList_BT.vi"/>
+				<Item Name="D2PIO_OpenDeviceList_USB.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_OpenDeviceList_USB.vi"/>
+				<Item Name="D2PIO_SampleRatePopup.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_SampleRatePopup.vi"/>
+				<Item Name="D2PIO_SensorSelectPopup.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_SensorSelectPopup.vi"/>
+				<Item Name="D2PIO_SetMeasurementPeriod.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX SubVIs/D2PIO_SetMeasurementPeriod.vi"/>
+				<Item Name="D2PIO_SourceCommand.ctl" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Controls/D2PIO_SourceCommand.ctl"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="GDX_CLOSE_BT.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Driver VIs/GDX_CLOSE_BT.vi"/>
+				<Item Name="GDX_CLOSE_USB.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Driver VIs/GDX_CLOSE_USB.vi"/>
+				<Item Name="GDX_INFO.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Driver VIs/GDX_INFO.vi"/>
+				<Item Name="GDX_OPEN_BT.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Driver VIs/GDX_OPEN_BT.vi"/>
+				<Item Name="GDX_OPEN_USB.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Driver VIs/GDX_OPEN_USB.vi"/>
+				<Item Name="GDX_READ.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Driver VIs/GDX_READ.vi"/>
+				<Item Name="GDX_SELECTCHANNELS.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Driver VIs/GDX_SELECTCHANNELS.vi"/>
+				<Item Name="GDX_START.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Driver VIs/GDX_START.vi"/>
+				<Item Name="GDX_STOP.vi" Type="VI" URL="/&lt;vilib&gt;/Vernier/GDX/GDX Driver VIs/GDX_STOP.vi"/>
+				<Item Name="NI_3D Picture Control.lvlib" Type="Library" URL="/&lt;vilib&gt;/picture/3D Picture Control/NI_3D Picture Control.lvlib"/>
+				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="myRIO-1950" Type="RT myRIO">
@@ -214,6 +307,7 @@ AddOutputFilter chunkFilter
 			<Item Name="whitespace.ctl" Type="VI" URL="../KNRm_ReMi_OS6_436Motor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
 			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../KNRm_ReMi_OS6_436Motor.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
+		<Item Name="Vernier.lvlib" Type="Library" URL="../Vernier.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="FPGA Bitfile Utility.lvlib" Type="Library" URL="/&lt;userlib&gt;/_FPGA Interface Advanced Tools/FPGA Bitfile Utility/FPGA Bitfile Utility.lvlib"/>
@@ -257,6 +351,8 @@ AddOutputFilter chunkFilter
 				<Item Name="IVA Result Manager Function.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Result Manager Function.ctl"/>
 				<Item Name="IVA Result Manager.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Result Manager.vi"/>
 				<Item Name="IVA Store Particles Results.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Store Particles Results.vi"/>
+				<Item Name="LVPointDoubleTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointDoubleTypeDef.ctl"/>
+				<Item Name="LVRangeTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRangeTypeDef.ctl"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
